@@ -4,7 +4,8 @@
     <div class="container mx-auto ">
 
         <AddItemForm :editItem="editItem"/>
-        <table class="table-auto mx-auto border-collapse border border-black-800">
+
+        <table class="table-auto mx-auto border-collapse border border-black-800 divide-y divide-fuchsia-300">
             <thead >
             <tr>
                 <th></th>
@@ -14,7 +15,7 @@
             </tr>
             </thead>
             <tbody>
-            <tr v-for="(item, index) in items" class="space-y-6">
+            <tr v-for="(item, index) in items" class="space-y-6 divide-y divide-fuchsia-300">
                 <td ><input :class="item.completed ? 'opacity-50 cursor-not-allowed' : ''" type="checkbox" v-model="item.checkbox" v-on:change="isCompleted(item.id)" id="checkbox" class="form-check-input mx-3"></td>
                 <td>{{ index + 1 }}</td>
                 <td :class="item.completed ? 'line-through' : ''">{{ item.name }}</td>

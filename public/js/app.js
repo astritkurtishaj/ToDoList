@@ -29419,7 +29419,7 @@ var _hoisted_1 = {
   "class": "container mx-auto"
 };
 var _hoisted_2 = {
-  "class": "table-auto mx-auto border-collapse border border-black-800"
+  "class": "table-auto mx-auto border-collapse border border-black-800 divide-y divide-fuchsia-300"
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "Id"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "Name"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "Actions")])], -1
@@ -29427,7 +29427,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_4 = {
-  "class": "space-y-6"
+  "class": "space-y-6 divide-y divide-fuchsia-300"
 };
 var _hoisted_5 = ["onUpdate:modelValue", "onChange"];
 var _hoisted_6 = ["onClick"];
