@@ -35,8 +35,7 @@
 
 <script>
 import AddItemForm from "./AddItemForm";
-import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
-import { BeakerIcon } from '@heroicons/vue/solid'
+
 
 import {faCheckSquare, faTrash,} from '@fortawesome/free-solid-svg-icons'
 
