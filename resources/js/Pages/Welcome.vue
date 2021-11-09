@@ -21,9 +21,9 @@
                 <td :class="item.completed ? 'line-through' : ''">{{ item.name }}</td>
                 <td>
                     <button @click="removeItem(item.id)" class="">
-                        <i class='fa fa-trash mx-5'/></button>
-                    <button @click="updateItem(item)" class="" :class="item.completed ? 'opacity-50 cursor-not-allowed' : 'bg-gray-500'">
-                        <i class='fa fa-edit mx-5'/></button>
+                        <i class='fa fa-trash text-red-800 mx-5'/></button>
+                    <button @click="updateItem(item)" class="" :class="item.completed ? 'opacity-50 cursor-not-allowed' : 'text-green-800'">
+                        <i class='fa fa-edit mx-2'/></button>
                 </td>
             </tr>
             </tbody>

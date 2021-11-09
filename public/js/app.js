@@ -29435,7 +29435,7 @@ var _hoisted_5 = ["onUpdate:modelValue", "onChange"];
 var _hoisted_6 = ["onClick"];
 
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
-  "class": "fa fa-trash mx-5"
+  "class": "fa fa-trash text-red-800 mx-5"
 }, null, -1
 /* HOISTED */
 );
@@ -29444,7 +29444,7 @@ var _hoisted_8 = [_hoisted_7];
 var _hoisted_9 = ["onClick"];
 
 var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
-  "class": "fa fa-edit mx-5"
+  "class": "fa fa-edit mx-2"
 }, null, -1
 /* HOISTED */
 );
@@ -29487,7 +29487,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       onClick: function onClick($event) {
         return $options.updateItem(item);
       },
-      "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["", item.completed ? 'opacity-50 cursor-not-allowed' : 'bg-gray-500'])
+      "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["", item.completed ? 'opacity-50 cursor-not-allowed' : 'text-green-800'])
     }, _hoisted_11, 10
     /* CLASS, PROPS */
     , _hoisted_9)])]);
