@@ -32,9 +32,7 @@ export default {
     },
     methods: {
       submit() {
-          this.form.post('/store', {
-              resetOnSuccess: false,
-          })
+          this.form.post('/store')
           this.form.reset()
       }
     }

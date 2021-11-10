@@ -11,16 +11,16 @@ class ItemController extends Controller
 {
     public function index()
     {
-        $items = Item::orderBy('created_at', 'desc')->get();
+
 
         return Inertia::render('Welcome', [
-            'items' => $items
+            'items' => Item::orderBy('created_at', 'desc')->get()
         ]);
     }
 
     public function store(Request $request)
     {
-        $data = $request->validate(['name' => 'required']);
+        $data = $request->validate(['name' => ['required']]);
 
         Item::updateOrCreate(['id' => $request->id], $data);
 
