@@ -22,6 +22,7 @@ use Inertia\Inertia;
 //});
 
 
+Route::redirect('/', '/items');
 Route::prefix('/items')->group(function (){
     Route::get('/', [ItemController::class, 'index'])->name('items.index');
     Route::post('/store', [ItemController::class, 'store'])->name('item.store');
