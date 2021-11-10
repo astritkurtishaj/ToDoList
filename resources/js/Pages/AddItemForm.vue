@@ -1,6 +1,6 @@
 <template >
     <div class="container mx-auto flex justify-center items-center my-4">
-    <form class="mx-auto bg-gray-100 px-4 py-6 block space-y-6" @submit="submit">
+    <form class="mx-auto bg-gray-300 px-4 py-6 block space-y-6" @submit="submit">
         <p class="my-3 flex justify-center"><b>To Do List with Inertia.js</b></p>
         <label for="name">Task name:</label>
         <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" placeholder="Write a task here..." v-model="this.form.name" />
@@ -32,7 +32,7 @@ export default {
     },
     methods: {
       submit() {
-          this.form.post('/store')
+          this.form.post('/items/store')
           this.form.reset()
       }
     }

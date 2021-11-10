@@ -1,11 +1,9 @@
 <template>
-
-
     <div class="container mx-auto ">
 
         <AddItemForm :editItem="editItem"/>
 
-        <table class="table-auto mx-auto border-collapse border border-black-800 divide-y divide-fuchsia-300">
+        <table class="table-auto mx-auto border border-black-800 divide-y divide-fuchsia-300">
             <thead >
             <tr>
                 <th></th>
